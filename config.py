@@ -16,7 +16,7 @@ BOT_WORKERS = int(getenv("BOT_WORKERS", "5"))
 
 # --------- ʟɪɴᴋ sʜᴏʀᴛɴᴇʀ ᴄᴏɴᴠᴇʀᴛᴇʀ ---------
 URL_SHORTNER_API = getenv("URL_SHORTNER_API", "http://urlshortx.com/api?api")
-URL_SHORTNER_API_KEY = getenv("URL_SHORTNER_API_KEY", "")
+URL_SHORTNER_API_KEY = getenv("URL_SHORTNER_API_KEY", "16LYjmErwNek2gMQkNrkLm2i1QVhjmxSRo")
 
 
 default_custom_caption = """
