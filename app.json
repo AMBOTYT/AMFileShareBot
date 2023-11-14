@@ -1,0 +1,47 @@
+{
+  "name": " ˹ᴛʜᴇ ғᴜɴҡʏ ғσꭙ˼ 🇷🇺",
+  "description": " ˹ᴛʜᴇ ғᴜɴҡʏ ғσꭙ˼ 🇷🇺 ʙᴏᴛ sᴛᴏʀᴇ ᴘᴏsᴛs ᴀɴᴅ ɪᴛ ᴄᴀɴ ᴀᴄᴄᴇss ʙʏ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.",
+  "keywords": [
+    "telegram",
+    "file",
+    "sharing"
+  ],
+  "repository": "https://github.com/AMBOTYT/AMFileShareBot",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your Bot token, Get it from @Botfather",
+      "required": true,
+      "value": "6335671691:AAHuSx_o23LPKGs5XsMm64IJfz9KztsPT7U"
+    },
+    "OWNER_ID": {
+      "description": "An integer of consisting of your owner ID",
+      "required": true,
+      "value": "6204761408 5360305806 6029628148"
+    },
+    "CHANNEL_ID":{
+      "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
+      "required": true,
+      "value": "-1002086023824"
+    }
+  },
+  "addons": [
+    {
+    "plan": "heroku-postgresql",
+      "options": {
+        "version": "22"
+      }
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
+
