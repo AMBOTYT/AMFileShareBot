@@ -1,5 +1,5 @@
 {
-  "name": " ˹ᴛʜᴇ ғᴜɴҡʏ ғσꭙ˼ 🇷🇺",
+  "name": "Am BOT",
   "description": " ˹ᴛʜᴇ ғᴜɴҡʏ ғσꭙ˼ 🇷🇺 ʙᴏᴛ sᴛᴏʀᴇ ᴘᴏsᴛs ᴀɴᴅ ɪᴛ ᴄᴀɴ ᴀᴄᴄᴇss ʙʏ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.",
   "keywords": [
     "telegram",
@@ -40,7 +40,7 @@
   "formation": {
     "worker": {
       "quantity": 1,
-      "size": "free"
+      "size": "basic"
     }
   }
 }
