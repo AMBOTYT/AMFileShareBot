@@ -24,14 +24,6 @@
       "value": "-1002086023824"
     }
   },
-  "addons": [
-    {
-    "plan": "heroku-postgresql",
-      "options": {
-        "version": "22"
-      }
-    }
-  ],
   "buildpacks": [
     {
       "url": "heroku/python"
