@@ -8,7 +8,7 @@ from logging.handlers import RotatingFileHandler
 API_ID = int(getenv("API_ID", "12227067"))
 API_HASH = getenv("API_HASH", "b463bedd791aa733ae2297e6520302fe")
 BOT_TOKEN = getenv("BOT_TOKEN", "6335671691:AAHuSx_o23LPKGs5XsMm64IJfz9KztsPT7U")
-CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002086023824"))
+CHANNEL_ID = int(getenv("CHANNEL_ID", "-1001819780287"))
 OWNER_ID = list(map(int, getenv("SUDO_USERS", "6204761408 5360305806 6029628148").split()))
 DB_URI = getenv("DATABASE_URL", "postgres://zvvrdoji:kSdhyo9vmR9lAKFnYs4XnFB7bGqxPNyo@snuffleupagus.db.elephantsql.com/zvvrdoji")
 FORCE_SUB_CHANNEL = int(getenv("FORCE_SUB_CHANNEL", "-1001987535452"))
