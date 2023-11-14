@@ -21,7 +21,7 @@
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
       "required": true,
-      "value": "-1002086023824"
+      "value": "-1001819780287"
     }
   },
   "buildpacks": [
