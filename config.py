@@ -11,7 +11,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "6335671691:AAHuSx_o23LPKGs5XsMm64IJfz9KztsPT7U"
 CHANNEL_ID = int(getenv("CHANNEL_ID", "-1001819780287"))
 OWNER_ID = list(map(int, getenv("SUDO_USERS", "6204761408 5360305806 6029628148").split()))
 DB_URI = getenv("DATABASE_URL", "postgres://zvvrdoji:kSdhyo9vmR9lAKFnYs4XnFB7bGqxPNyo@snuffleupagus.db.elephantsql.com/zvvrdoji")
-FORCE_SUB_CHANNEL = int(getenv("FORCE_SUB_CHANNEL", "-1001987535452"))
+FORCE_SUB_CHANNEL = int(getenv("FORCE_SUB_CHANNEL", "-1001581753723"))
 BOT_WORKERS = int(getenv("BOT_WORKERS", "5"))
 
 # --------- ʟɪɴᴋ sʜᴏʀᴛɴᴇʀ ᴄᴏɴᴠᴇʀᴛᴇʀ ---------
