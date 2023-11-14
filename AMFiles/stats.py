@@ -8,12 +8,12 @@ from AMFiles.helper_func import get_readable_time
 
 USER_REPLY_TEXT = """<code> ᴀʀᴇ ʙʜᴀɪʏᴀ.. ᴀᴀᴘ ᴋᴏɴ ᴄʜʟᴇ ᴊᴀᴀᴏ ʏʜᴀ sᴇ ᴍᴜᴊʜᴇ ᴀᴀᴘsᴇ ʙᴀᴀᴛ ɴʜɪ ᴋʀɴɪ. </code>"""
 
+logger = logging.getLogger(__name__)  # Define the logger
 
 @Bot.on_message(filters.private)
-async def useless(_,message: Message):
+async def useless(_, message: Message):
     if USER_REPLY_TEXT:
         await message.reply(USER_REPLY_TEXT)
-
 
 async def get_shortlink(link):
     https = link.split(":")[0]
